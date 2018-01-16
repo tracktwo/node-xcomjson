@@ -1,0 +1,29 @@
+{
+  "name": "node-xcomjson",
+  "version": "1.0.0",
+  "description": "Node wrapper for xcom2json and json2xcom",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-ts ./spec/**/*.spec.ts",
+    "build": "gulp scripts",
+    "build-external": "cmake-js compile -s c++14 --CDCMAKE_CXX_COMPILER=g++-6 --CDCMAKE_C_COMPILER=gcc-6"
+  },
+  "author": "tracktwo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.4",
+    "@types/node": "^9.3.0",
+    "@types/tmp": "0.0.33",
+    "cmake-js": "^3.6.1",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.3",
+    "gulp-typescript": "^4.0.0-alpha.1",
+    "jasmine": "^2.8.0",
+    "jasmine-ts": "^0.2.1",
+    "merge2": "^1.2.1",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "tmp": "0.0.33"
+  }
+}

@@ -1,0 +1,3 @@
+[submodule "external/xcomsave"]
+	path = external/xcomsave
+	url = https://github.com/tracktwo/xcomsave
