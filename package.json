@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jasmine ./dist/spec/**/*.spec.js",
     "build": "gulp scripts",
-    "build-external": "cmake-js compile -s c++14 --CDCMAKE_CXX_COMPILER=g++-6 --CDCMAKE_C_COMPILER=gcc-6"
+    "build-external": "cmake-js compile -s c++14"
   },
   "repository": {
     "type": "git",
