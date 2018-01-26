@@ -1,0 +1,9 @@
+.vscode/
+build/
+external/
+spec/
+src/
+.gitmodules
+CMakeLists.txt
+gulpfile.js
+tsconfig.json
