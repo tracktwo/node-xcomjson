@@ -3,6 +3,6 @@ node_modules/
 .vscode/
 definitions/
 build/
+bin/
 dist/
 *.tgz
-

@@ -1,12 +1,13 @@
 {
-  "name": "xcomjson",
+  "name": "@tracktwo/xcomjson",
   "version": "0.1.0",
   "description": "Node wrapper for xcom2json and json2xcom",
   "main": "dist/src/index.js",
   "scripts": {
     "test": "jasmine ./dist/spec/**/*.spec.js",
     "build": "gulp scripts",
-    "install": "cmake-js compile -s c++14"
+    "build-external": "cmake-js compile -s c++14",
+    "install": "npm run build && npm run build-external"
   },
   "repository": {
     "type": "git",

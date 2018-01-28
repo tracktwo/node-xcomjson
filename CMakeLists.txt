@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 2.6)
 
 project (node-xcomjson)
 
-set(DIST_DIR "${CMAKE_SOURCE_DIR}/dist")
+set(DIST_DIR "${CMAKE_SOURCE_DIR}/bin")
 add_subdirectory(external/xcomsave "${CMAKE_CURRENT_BINARY_DIR}/xcomsave_build")
 
 add_custom_target(create_dist ALL DEPENDS ${DIST_DIR})
